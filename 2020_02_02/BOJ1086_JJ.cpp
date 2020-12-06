@@ -23,8 +23,7 @@ int main()
     vector<int> ten_mod(51,0);
     vector<int> each_mod(n,0);
 
-    for(int i=0;i<n;i++) 
-    {
+    for(int i=0;i<n;i++) {
         cin>>s[i];
         each_string_len[i]=s[i].length();
     }
